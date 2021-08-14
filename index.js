@@ -18,11 +18,11 @@ class CountdownTimer{
         this.hour.textContent = hours < 10 ? `0${hours}` : hours;
         this.day.textContent = days < 10 ? `0${days}` : days;
     }
-    CountdownTimer = () => {
+    countdownTimer = () => {
        setInterval(this.calc, 1000) 
     }
 }
 
 const timer = new CountdownTimer(new Date('Sep 1, 2021'))
 
-window.addEventListener('DOMContentLoaded', timer.CountdownTimer)
+window.addEventListener('DOMContentLoaded', timer.countdownTimer)
