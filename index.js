@@ -23,6 +23,6 @@ class CountdownTimer{
     }
 }
 
-const timer = new CountdownTimer(new Date('Sep 1, 2021'))
+const timer = new CountdownTimer(new Date('Jun 1, 2022'))
 
 window.addEventListener('DOMContentLoaded', timer.countdownTimer)
